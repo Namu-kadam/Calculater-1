@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 600px;
+  width: 350px;
+  margin: 200px 500px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+input {
+  width: 300px;
+  margin:30px 25px;
+  background-color: black;
+  border: transparent;
+  height: 130px;
+  font-size: 40px;
+  color:white;
+  border-radius: 20px;
+  
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 10px;
+  border: transparent;
+  cursor:pointer;
+}
+
+.color {
+  background-color: rgb(239, 144, 76);
+}
+
+.zero {
+  width: 145px;
+}
